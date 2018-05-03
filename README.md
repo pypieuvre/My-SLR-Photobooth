@@ -6,7 +6,7 @@ Small program running a simple photobooth. It can be used as a standalone setup,
 
 ### Set up :
 
-< image >
+![Photobooth Set Up](https://github.com/pypieuvre/My-SLR-Photobooth/blob/master/images/photobooth.png)
 
  
 
