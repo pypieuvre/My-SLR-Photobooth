@@ -1,18 +1,16 @@
 # My SLR Photobooth
 
- 
 
-Small program running a simple photobooth. It can be used as a standalone setup, or with a real time update of an internet website to share the photos to people partying
+This is a small program running a simple photobooth. It can be used as a standalone setup, or with a real time update of an internet website to share the photos to people partying
 
 ### Set up :
 
 ![Photobooth Set Up](https://github.com/pypieuvre/My-SLR-Photobooth/blob/master/images/photobooth.png)
 
- 
 
 This is my personal set up, used to run this program :
 
-- A **Laptop** running the program (can be any desktop, raspberry, etc ....)
+- A **Laptop** running the program (can be any desktop, raspberry pi, etc ....)
 
 - A **screen** used by the laptop to show preview, countdown, and photo
 
@@ -22,13 +20,10 @@ This is my personal set up, used to run this program :
 
 - A **remote control** to trigger photoshoot
 
- 
-
- 
 
 ### Features :
 
-- Preview with Laptop or external webcam
+- Preview the photobooth scene with the laptop or an external webcam
 
 - Shooting triggered from keyboard or remote control
 
@@ -38,37 +33,24 @@ This is my personal set up, used to run this program :
 
 - [OPTIONAL] Applying watermark Logo on the picture
 
-- Displaying picture on the preview screen
+- Displaying photo on the preview screen
 
-- [OPTIONAL] Upload pictures to a website
+- [OPTIONAL] Upload photo to a website
 
- 
-
- 
 
 ## Getting Started
 
- 
-
 These instructions will get you an instance of the project up and running on your local machine for execution.
-
- 
-
- 
 
 ### Prerequisites
 
- 
-
 What things you need to install the software and run the program
-
- 
 
 #### Hardware :
 
 - A webcam for preview
 
-- A SLR Camera (or webcam) to take pictures
+- A SLR Camera (or webcam) to take photos
 
 - A device (laptop/desktop) running python to execute the program (Linux Ubuntu for me)
 
@@ -82,36 +64,21 @@ What things you need to install the software and run the program
 
 - Python + libraries (pip install)
 
-               - Gphoto
-
-               - OS
-
-               - ...
-
-               - Open CV
-
- 
+               - Os, surl, ftplib, etc ...
+               - OpenCV
+- gphoto2
 
 ## Configuration
 
  
 
-The configuration is done by updating the file xxxxx (root of the project)
-
- 
-
- 
+The configuration is done by updating the file photoboothconfig.py (root of the project)
 
 ## Running the program
 
- 
-
-A simple script launch is executing the script
-
- 
+A simple script launch is executing the program
 
 ```
-
 python photobooth.py
 
 ```
@@ -121,41 +88,17 @@ Several additional features can be implemented to make this photobooth better. H
 - With compatible SLR, use preview from camera instead of webcam
 - use Text overlay instead of images for countdown
 - send photo to emails
+- Use a real logging library
 
 ## Contributing
 
- 
-
 This program is far from perfect, so please feel free to contact me or create pull requests to fix issues or propose new features
-
- 
 
 ## Authors
 
- 
-
-* **Pierre-Yves AIMON** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
- 
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
- 
+* **Pierre-Yves AIMON** - *Initial work*
 
 ## License
 
- 
+This project is licensed under the GPL-3.0 - see the [LICENSE.md](LICENSE) file for details
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
- 
-
-## Acknowledgments
-
- 
-
-* Hat tip to anyone who's code was used
-
-* Inspiration
-
-* etc
